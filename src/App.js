@@ -1,14 +1,14 @@
 import "./App.css";
 
-import BaiTapRenderFilms from "./BaiTapRenderFilms/BaiTapRenderFilms";
+import BaiTapThuKinh from "./BaiTapThuKinh/BaiTapThuKinh";
+// import BaiTapRenderFilms from "./BaiTapRenderFilms/BaiTapRenderFilms";
 // import BaiTapThucHanhLayout from "./component/BaiTapThucHanhLayOut/BaiTapThucHanhLayout";
 // import DateBinding from "./DateBinding/DateBinding";
 // import DateBindingRFC from "./DateBinding/DateBindingRFC";
 // import BaiTapChonXe from "./BaiTapChonXe/BaiTapChonXe";
 // import HandleEvent from "./HandleEvent/HandleEvent";
 import React from "react";
-
-// import RenderWithLoop from "./RenderWithLoop/RenderWithLoop";
+import RenderWithLoop from "./RenderWithLoop/RenderWithLoop";
 
 // import StateDemo from "./State/StateDemo";
 // import Styling from "./Styling/Styling";
@@ -25,8 +25,8 @@ function App() {
       {/* <Styling/> */}
       {/* <BaiTapChonXe/> */}
       {/* <RenderWithLoop /> */}
-
-      <BaiTapRenderFilms />
+      {/* <BaiTapRenderFilms /> */}
+      <BaiTapThuKinh />/
     </div>
   );
 }
